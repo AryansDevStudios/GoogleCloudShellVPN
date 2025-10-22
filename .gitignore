@@ -1,0 +1,65 @@
+# --- System / Shell files ---
+.bash_history
+.bashrc
+.profile
+.lesshst
+.wget-hsts
+.sudo_as_admin_successful
+.selected_editor
+README-cloudshell.txt
+
+# --- Editor / IDE config ---
+.vscode/
+.codeoss/
+.config/
+.local/
+.cache/
+.cloudshell/
+
+# --- Docker & Dev tools ---
+.docker/
+.dotnet/
+.npm/
+.gemini/
+.gemini/
+.gemini_config/
+
+# --- Git-related junk ---
+.gitconfig
+.git/
+
+# --- SSH / Keys ---
+.ssh/
+
+# --- Logs ---
+*.log
+*.log1.txt
+*.log2.txt
+tailscale-web.log
+tailscaled.log
+
+# --- Temporary / runtime ---
+*.tmp
+*.swp
+*.bak
+*.pid
+nohup.out
+
+# --- Tailscale files (runtime only, not source) ---
+tailscale/derpmap.cached.json
+tailscale/tailscaled.log*.txt
+tailscale/*.log
+tailscale-web.log
+tailscaled.log
+
+# --- Cloud Shell metadata ---
+README-cloudshell.txt
+
+# --- Node / Python cache (if any future dev) ---
+node_modules/
+__pycache__/
+*.pyc
+
+# --- Backup or OS junk ---
+.DS_Store
+Thumbs.db
